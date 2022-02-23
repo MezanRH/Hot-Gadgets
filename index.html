@@ -5,8 +5,223 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-  
+  <div class="container">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="container bottom-pading">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-md-5 col-md-12">
+              <h1>Mackbook Pro</h1>
+              <p>Contraty to popular belief, lorem ipsum is not simply random text, It has roots in a piece of classical latin literature.</p>
+              <button class="buy-btn">BUY NOW</button>
+            </div>
+            <div class="col-md-7">
+              <img src="img/banner-products/product-1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-5 col-sm-12">
+              <h1>Mackbook Pro</h1>
+              <p>Contraty to popular belief, lorem ipsum is not simply random text, It has roots in a piece of classical latin literature.</p>
+              <button class="buy-btn">BUY NOW</button>
+            </div>
+            <div class="col-md-7">
+              <img src="img/banner-products/slider-1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-5 col-sm-12">
+              <h1>Mackbook Pro</h1>
+              <p>Contraty to popular belief, lorem ipsum is not simply random text, It has roots in a piece of classical latin literature.</p>
+              <button class="buy-btn">BUY NOW</button>
+            </div>
+            <div class="col-md-7 smilpng">
+              <img src="img/banner-products/slider-3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container bottom-pading">
+    <div class="top-div d-flex">
+      <h1>Smartphome</h1>
+      <h4 class=" ms-auto">see all</h4>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="img/phone/phone-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">iphone 11 pro</h5>
+            <p class="card-text">Some quick example text to build on the card tittle.</p>
+            <h3>$999</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="img/phone/phone-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Galaxy Note10+</h5>
+            <p class="card-text">Some quick example text to build on the card tittle.</p>
+            <h3>$799</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="img/phone/phone-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Redme 11 pro</h5>
+            <p class="card-text">Some quick example text to build on the card tittle.</p>
+            <h3>$699</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container bottom-pading">
+    <div class="top-div d-flex">
+      <h1>Laptop</h1>
+      <h4 class=" ms-auto">see all</h4>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="img/laptop/product-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Asus VivoBook</h5>
+            <p class="card-text">Some quick example text to build on the card tittle.</p>
+            <h3>$999</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="img/laptop/product-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Razer Blade 15</h5>
+            <p class="card-text">Some quick example text to build on the card tittle.</p>
+            <h3>$2799</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-center">
+          <img src="img/laptop/product-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi Mi Notebook pro</h5>
+            <p class="card-text">Some quick example text to build on the card tittle.</p>
+            <h3>$699</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-btn">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <h1 class=" mb-5">Categories</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <img src="img/Categories/perfume.png" alt="">
+            <h2 class=" text-center pt-3">Beauty</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <img src="img/Categories/bag.png" alt="">
+            <h2 class=" text-center pt-3">Bag</h2>
+          </div>
+          <div class="col-md-6">
+            <img src="img/Categories/shoe.png" alt="">
+            <h2 class="pt-3">Shoes</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="img/Categories/pale-order.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+.nav-item a{
+  color: gray;
+  font-weight: 600;
+  font-size: 17px;
+}
+.bottom-pading{
+  margin-bottom: 200px;
+}
+.buy-btn{
+  border: none;
+  background-color: black;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+h4{
+  color: rgb(240, 240, 26);
+}
+.card-footer{
+  border: none;
+}
+.smilpng img{
+  width: 100%;
+}
